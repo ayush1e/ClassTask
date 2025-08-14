@@ -42,5 +42,4 @@ u2= bankAccount("user2", "pass2")
 print(u2.AccountNumber)
 u3= bankAccount("user3", "pass3")
 print(u3.AccountNumber)
- 
- 
+
