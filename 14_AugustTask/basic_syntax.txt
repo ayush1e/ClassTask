@@ -1,0 +1,61 @@
+
+1. What is Python? Mention two of its key features.
+Ans. Python is a high-level, interpreted programming language known for its simplicity and readability. Two key features are:
+1. Easy-to-read syntax that emphasizes code readability.
+2. Extensive standard library that supports many common programming tasks.
+
+2. How do you write a single-line comment in Python?
+Ans. # This is a single-line comment in Python.
+
+3. How do you write a multi-line comment in Python?
+Ans. You can use triple quotes:
+"""
+This is a multi-line commentin Python.
+"""
+
+4. What is the difference between print() and return?
+Ans. print() displays output to the console, while return sends a value back from a function to the caller.
+
+5. How do you get user input in Python?
+Ans. input_value = input("Enter something: ")
+
+6. How do you check the version of Python installed?
+Ans. python --version
+or in code:
+import sys
+print(sys.version)
+
+7. Is Python case-sensitive? Give an example.
+Ans. Yes, Python is case-sensitive.
+Example:
+variable = 5
+Variable = 10
+print(variable)  # Outputs 5
+print(Variable)  # Outputs 10
+
+8. How do you run a Python script from the command line?
+Ans. python script_name.py
+
+9. What are keywords in Python? How can you list them?
+Ans. Keywords are reserved words with special meaning.
+To list them:
+import keyword
+print(keyword.kwlist)
+
+10. How do you declare a variable in Python?
+Ans. x = 10
+
+11. What’s the difference between = and ==?
+= is the assignment operator; == is the equality comparison operator.
+
+12. How do you swap two variables without using a third variable?
+Ans. a, b = b, a
+
+13. How do you write a one-line if statement?
+Ans. if x > 0: print("x is positive")
+
+14. What’s the difference between None and 0 in Python?
+Ans. None represents the absence of a value; 0 is an integer value.
+
+15. What is indentation in Python and why is it important?
+Ans. Indentation refers to spaces/tabs at the beginning of a line. It is important because it defines code blocks and structure in Python.
