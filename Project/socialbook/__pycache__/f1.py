@@ -1,0 +1,1 @@
+from socialbook.asgi import application
